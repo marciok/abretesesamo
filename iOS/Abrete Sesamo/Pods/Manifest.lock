@@ -1,0 +1,13 @@
+PODS:
+  - PubNub (3.7.6)
+  - SocketRocket (0.2.0)
+
+DEPENDENCIES:
+  - PubNub (= 3.7.6)
+  - SocketRocket
+
+SPEC CHECKSUMS:
+  PubNub: 3f1be7f5eb0766af50d377c4a64d978acc826096
+  SocketRocket: 6c9cfd1592bea82262b4283dcda3a7de166af3b6
+
+COCOAPODS: 0.35.0

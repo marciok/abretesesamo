@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+
+link_with 'Abrete Sesamo', 'Abrete SesamoTests'
+
+pod 'SocketRocket'
+pod 'PubNub', '3.7.6'
+

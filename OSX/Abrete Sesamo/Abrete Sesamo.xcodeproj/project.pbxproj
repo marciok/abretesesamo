@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		509524B4F1418E0DE41A1FA5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED66A64913E9448C2C523FBB /* libPods.a */; };
+		57F766181A7504E600B92470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F766171A7504E600B92470 /* AppDelegate.swift */; };
+		57F7661A1A7504E600B92470 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F766191A7504E600B92470 /* ViewController.swift */; };
+		57F7661C1A7504E600B92470 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F7661B1A7504E600B92470 /* Images.xcassets */; };
+		57F7661F1A7504E600B92470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57F7661D1A7504E600B92470 /* Main.storyboard */; };
+		57F7662B1A7504E600B92470 /* Abrete_SesamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7662A1A7504E600B92470 /* Abrete_SesamoTests.swift */; };
+		C8B434A24F352E046CD19319 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED66A64913E9448C2C523FBB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57F766251A7504E600B92470 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57F7660A1A7504E600B92470 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57F766111A7504E600B92470;
+			remoteInfo = "Abrete Sesamo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38710864B50B60AD838D2EBF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		57F766121A7504E600B92470 /* Abrete Sesamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abrete Sesamo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F766161A7504E600B92470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F766171A7504E600B92470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57F766191A7504E600B92470 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57F7661B1A7504E600B92470 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57F7661E1A7504E600B92470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57F766241A7504E600B92470 /* Abrete SesamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abrete SesamoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F766291A7504E600B92470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F7662A1A7504E600B92470 /* Abrete_SesamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abrete_SesamoTests.swift; sourceTree = "<group>"; };
+		57F766351A7507E700B92470 /* AbreteSesamo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AbreteSesamo-Bridging-Header.h"; sourceTree = "<group>"; };
+		B2108CD4F1900BD42481EC9D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		ED66A64913E9448C2C523FBB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57F7660F1A7504E600B92470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				509524B4F1418E0DE41A1FA5 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F766211A7504E600B92470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8B434A24F352E046CD19319 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57F766091A7504E600B92470 = {
+			isa = PBXGroup;
+			children = (
+				57F766141A7504E600B92470 /* Abrete Sesamo */,
+				57F766271A7504E600B92470 /* Abrete SesamoTests */,
+				57F766131A7504E600B92470 /* Products */,
+				B90F178259A004F1E2B12CB1 /* Pods */,
+				CAAE82BEF98AB86C0B524973 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57F766131A7504E600B92470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57F766121A7504E600B92470 /* Abrete Sesamo.app */,
+				57F766241A7504E600B92470 /* Abrete SesamoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57F766141A7504E600B92470 /* Abrete Sesamo */ = {
+			isa = PBXGroup;
+			children = (
+				57F766171A7504E600B92470 /* AppDelegate.swift */,
+				57F766191A7504E600B92470 /* ViewController.swift */,
+				57F7661B1A7504E600B92470 /* Images.xcassets */,
+				57F7661D1A7504E600B92470 /* Main.storyboard */,
+				57F766151A7504E600B92470 /* Supporting Files */,
+				57F766351A7507E700B92470 /* AbreteSesamo-Bridging-Header.h */,
+			);
+			path = "Abrete Sesamo";
+			sourceTree = "<group>";
+		};
+		57F766151A7504E600B92470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57F766161A7504E600B92470 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57F766271A7504E600B92470 /* Abrete SesamoTests */ = {
+			isa = PBXGroup;
+			children = (
+				57F7662A1A7504E600B92470 /* Abrete_SesamoTests.swift */,
+				57F766281A7504E600B92470 /* Supporting Files */,
+			);
+			path = "Abrete SesamoTests";
+			sourceTree = "<group>";
+		};
+		57F766281A7504E600B92470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57F766291A7504E600B92470 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B90F178259A004F1E2B12CB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2108CD4F1900BD42481EC9D /* Pods.debug.xcconfig */,
+				38710864B50B60AD838D2EBF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAAE82BEF98AB86C0B524973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED66A64913E9448C2C523FBB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57F766111A7504E600B92470 /* Abrete Sesamo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F7662E1A7504E600B92470 /* Build configuration list for PBXNativeTarget "Abrete Sesamo" */;
+			buildPhases = (
+				580F1DC9993A3FA89ED21868 /* Check Pods Manifest.lock */,
+				57F7660E1A7504E600B92470 /* Sources */,
+				57F7660F1A7504E600B92470 /* Frameworks */,
+				57F766101A7504E600B92470 /* Resources */,
+				945AACFAE69BBFE7AD6B7A72 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Abrete Sesamo";
+			productName = "Abrete Sesamo";
+			productReference = 57F766121A7504E600B92470 /* Abrete Sesamo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57F766231A7504E600B92470 /* Abrete SesamoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F766311A7504E600B92470 /* Build configuration list for PBXNativeTarget "Abrete SesamoTests" */;
+			buildPhases = (
+				0501DB5CAD5F60C0F1B4669E /* Check Pods Manifest.lock */,
+				57F766201A7504E600B92470 /* Sources */,
+				57F766211A7504E600B92470 /* Frameworks */,
+				57F766221A7504E600B92470 /* Resources */,
+				FCD10539E6F79082920E4C2E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F766261A7504E600B92470 /* PBXTargetDependency */,
+			);
+			name = "Abrete SesamoTests";
+			productName = "Abrete SesamoTests";
+			productReference = 57F766241A7504E600B92470 /* Abrete SesamoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57F7660A1A7504E600B92470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Marcio Klepacz";
+				TargetAttributes = {
+					57F766111A7504E600B92470 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					57F766231A7504E600B92470 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 57F766111A7504E600B92470;
+					};
+				};
+			};
+			buildConfigurationList = 57F7660D1A7504E600B92470 /* Build configuration list for PBXProject "Abrete Sesamo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57F766091A7504E600B92470;
+			productRefGroup = 57F766131A7504E600B92470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57F766111A7504E600B92470 /* Abrete Sesamo */,
+				57F766231A7504E600B92470 /* Abrete SesamoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57F766101A7504E600B92470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F7661C1A7504E600B92470 /* Images.xcassets in Resources */,
+				57F7661F1A7504E600B92470 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F766221A7504E600B92470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0501DB5CAD5F60C0F1B4669E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		580F1DC9993A3FA89ED21868 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		945AACFAE69BBFE7AD6B7A72 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCD10539E6F79082920E4C2E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57F7660E1A7504E600B92470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F7661A1A7504E600B92470 /* ViewController.swift in Sources */,
+				57F766181A7504E600B92470 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F766201A7504E600B92470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F7662B1A7504E600B92470 /* Abrete_SesamoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57F766261A7504E600B92470 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57F766111A7504E600B92470 /* Abrete Sesamo */;
+			targetProxy = 57F766251A7504E600B92470 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57F7661D1A7504E600B92470 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57F7661E1A7504E600B92470 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57F7662C1A7504E600B92470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Abrete Sesamo/AbreteSesamo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57F7662D1A7504E600B92470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Abrete Sesamo/AbreteSesamo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		57F7662F1A7504E600B92470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2108CD4F1900BD42481EC9D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Abrete Sesamo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Abrete Sesamo/AbreteSesamo-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		57F766301A7504E600B92470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38710864B50B60AD838D2EBF /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Abrete Sesamo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/Abrete Sesamo/AbreteSesamo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		57F766321A7504E600B92470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2108CD4F1900BD42481EC9D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Abrete SesamoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abrete Sesamo.app/Contents/MacOS/Abrete Sesamo";
+			};
+			name = Debug;
+		};
+		57F766331A7504E600B92470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38710864B50B60AD838D2EBF /* Pods.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Abrete SesamoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abrete Sesamo.app/Contents/MacOS/Abrete Sesamo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57F7660D1A7504E600B92470 /* Build configuration list for PBXProject "Abrete Sesamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F7662C1A7504E600B92470 /* Debug */,
+				57F7662D1A7504E600B92470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F7662E1A7504E600B92470 /* Build configuration list for PBXNativeTarget "Abrete Sesamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F7662F1A7504E600B92470 /* Debug */,
+				57F766301A7504E600B92470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F766311A7504E600B92470 /* Build configuration list for PBXNativeTarget "Abrete SesamoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F766321A7504E600B92470 /* Debug */,
+				57F766331A7504E600B92470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57F7660A1A7504E600B92470 /* Project object */;
+}
