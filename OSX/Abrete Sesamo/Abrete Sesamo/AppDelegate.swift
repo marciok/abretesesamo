@@ -45,10 +45,31 @@ extension AppDelegate: PNDelegate {
     
     func pubnubClient(client: PubNub!, didReceiveMessage pubNubMessage: PNMessage!) {
         println("message received: \(pubNubMessage.message)")
-        let task = NSTask()
-        task.launchPath = "/usr/bin/open"
-        task.arguments = ["-a", "Safari", pubNubMessage.message]
-        task.launch()
+        
+        if let message = pubNubMessage.message as? NSDictionary {
+            
+            if let url = message.objectForKey("url") as? String {
+                
+                if let browser = message.objectForKey("browser") as? String {
+                    
+                    let task = NSTask()
+                    task.launchPath = "/usr/bin/open"
+                    
+                    switch browser {
+                    case "Chrome":
+                        task.arguments = ["-a", "Google Chrome", url]
+                    case "Safari":
+                        task.arguments = ["-a", "Safari", url]
+                    case "Firefox":
+                        task.arguments = ["-a", "Firefox", url]
+                    default:
+                        println("Unable to find the browser")
+                    }
+                    
+                    task.launch()
+                }
+            }
+        }
     }
     
 }

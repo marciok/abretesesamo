@@ -9,7 +9,7 @@
 import Foundation
 
 
-struct MessangerProvider {
+private class MessangerProvider {
     
     let name: String
     let pubNub: PubNub?
@@ -53,7 +53,7 @@ struct MessangerProvider {
 
 struct Messanger {
     
-    let provider: MessangerProvider
+    private let provider: MessangerProvider
     
     static var sharedInstance : Messanger {
         struct Static {

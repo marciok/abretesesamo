@@ -9,7 +9,6 @@
 #ifndef Abrete_Sesamo_AbreteSesamo_Bridging_Header_h
 #define Abrete_Sesamo_AbreteSesamo_Bridging_Header_h
 
-#import <SocketRocket/SRWebSocket.h>
 #import <PubNub/PNImports.h>
 
 #endif

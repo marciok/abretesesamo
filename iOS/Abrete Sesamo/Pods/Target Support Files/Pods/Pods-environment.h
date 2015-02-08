@@ -12,9 +12,3 @@
 #define COCOAPODS_VERSION_MINOR_PubNub 7
 #define COCOAPODS_VERSION_PATCH_PubNub 6
 
-// SocketRocket
-#define COCOAPODS_POD_AVAILABLE_SocketRocket
-#define COCOAPODS_VERSION_MAJOR_SocketRocket 0
-#define COCOAPODS_VERSION_MINOR_SocketRocket 2
-#define COCOAPODS_VERSION_PATCH_SocketRocket 0
-

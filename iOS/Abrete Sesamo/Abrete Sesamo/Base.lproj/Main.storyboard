@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Select Browser View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SelectBrowserViewController" customModule="Abrete_Sesamo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,8 +15,48 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H4L-l0-B0a">
+                                <rect key="frame" x="263" y="60" width="55" height="30"/>
+                                <state key="normal" title="Chrome">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="chromeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gol-my-E7g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mY-gu-gna">
+                                <rect key="frame" x="270" y="137" width="40" height="30"/>
+                                <state key="normal" title="Safari">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="safariTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F9U-LF-gTO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVt-fh-Avy">
+                                <rect key="frame" x="267" y="213" width="47" height="30"/>
+                                <state key="normal" title="Firefox">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="firefoxTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="54V-bE-lPa"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0mY-gu-gna" firstAttribute="centerX" secondItem="CVt-fh-Avy" secondAttribute="centerX" id="5BS-HG-Qck"/>
+                            <constraint firstItem="CVt-fh-Avy" firstAttribute="top" secondItem="0mY-gu-gna" secondAttribute="bottom" constant="46" id="6VV-1I-Qe1"/>
+                            <constraint firstItem="0mY-gu-gna" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="137" id="KLX-B4-bkN"/>
+                            <constraint firstAttribute="centerX" secondItem="0mY-gu-gna" secondAttribute="centerX" constant="10" id="PP6-Do-4VR"/>
+                            <constraint firstItem="0mY-gu-gna" firstAttribute="top" secondItem="H4L-l0-B0a" secondAttribute="bottom" constant="47" id="Zxc-JA-pBw"/>
+                            <constraint firstItem="0mY-gu-gna" firstAttribute="centerX" secondItem="H4L-l0-B0a" secondAttribute="centerX" id="y2d-65-1zc"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="chromeButton" destination="H4L-l0-B0a" id="kbU-nd-VVo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

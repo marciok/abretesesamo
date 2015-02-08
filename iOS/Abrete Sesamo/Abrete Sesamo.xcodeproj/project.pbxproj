@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		575C2E9A1A752CAB001FCCE6 /* Messanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575C2E991A752CAB001FCCE6 /* Messanger.swift */; };
 		575C97461A6C2E41009EAF47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575C97451A6C2E41009EAF47 /* AppDelegate.swift */; };
-		575C97481A6C2E41009EAF47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575C97471A6C2E41009EAF47 /* ViewController.swift */; };
+		575C97481A6C2E41009EAF47 /* SelectBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575C97471A6C2E41009EAF47 /* SelectBrowserViewController.swift */; };
 		575C974B1A6C2E41009EAF47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575C97491A6C2E41009EAF47 /* Main.storyboard */; };
 		575C974D1A6C2E41009EAF47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575C974C1A6C2E41009EAF47 /* Images.xcassets */; };
 		575C97501A6C2E41009EAF47 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575C974E1A6C2E41009EAF47 /* LaunchScreen.xib */; };
@@ -34,7 +34,7 @@
 		575C97401A6C2E41009EAF47 /* Abrete Sesamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abrete Sesamo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		575C97441A6C2E41009EAF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		575C97451A6C2E41009EAF47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		575C97471A6C2E41009EAF47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		575C97471A6C2E41009EAF47 /* SelectBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBrowserViewController.swift; sourceTree = "<group>"; };
 		575C974A1A6C2E41009EAF47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		575C974C1A6C2E41009EAF47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		575C974F1A6C2E41009EAF47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				575C97451A6C2E41009EAF47 /* AppDelegate.swift */,
-				575C97471A6C2E41009EAF47 /* ViewController.swift */,
+				575C97471A6C2E41009EAF47 /* SelectBrowserViewController.swift */,
 				575C97491A6C2E41009EAF47 /* Main.storyboard */,
 				575C974C1A6C2E41009EAF47 /* Images.xcassets */,
 				575C974E1A6C2E41009EAF47 /* LaunchScreen.xib */,
@@ -311,7 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				575C2E9A1A752CAB001FCCE6 /* Messanger.swift in Sources */,
-				575C97481A6C2E41009EAF47 /* ViewController.swift in Sources */,
+				575C97481A6C2E41009EAF47 /* SelectBrowserViewController.swift in Sources */,
 				575C97461A6C2E41009EAF47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
