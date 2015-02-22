@@ -20,10 +20,26 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         println("Error \(error)")
         
     }
+    
+    var statusItem: NSStatusItem?;
 
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
+        
+        //Menu
+        let menu = NSMenu(title: "Hypnosis")
+        let item = NSMenuItem(title: "Disable", action:"toggleApplication", keyEquivalent:"")
+        menu.addItem(item)
+
+        let bar = NSStatusBar.systemStatusBar()
+        
+        statusItem = bar.statusItemWithLength(-1)
+        statusItem!.title = "H"
+        statusItem!.menu = menu
+        statusItem!.highlightMode = true
+        
+        
         self.pubNub.setDelegate(self)
         self.pubNub.connect()
         let channel = [PNChannel.channelWithName("shalom", shouldObservePresence: true)]
@@ -36,6 +52,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
 
+    func toggleApplication() {
+        
+    }
 }
 
 extension AppDelegate: PNDelegate {
